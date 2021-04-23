@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>다담</title>
+    <style>
+        @keyframes view_on {
+            0% { background: rgba(0,0,0,0.5); }
+            50% { background: #b98657; }
+            100% { background: rgba(0,0,0,0.5); }
+        }
+        html { scroll-behavior: smooth; }
+        body { margin: 0; padding: 0; overflow-x: hidden; background: #483932; min-width: 320px; }
+        #wrap { width: 70%; margin: 0 auto; }
+        img { display: block; width: 100%; }
+        .btn { position: fixed; right: 15%; bottom: 0; transform: translateX(60px); }
+        .btn a { text-decoration: none; color: #fff; display: block; width: 60px; padding: 20px 0; text-align: center; }
+        .btn a.view { background: rgba(0,0,0,0.5); font-size: 14px; animation: view_on 3s infinite; }
+        .btn a.gotop { background: rgba(0,0,0,1); }
+    </style>
+</head>
+
+<body>
+    <a name="top"></a>
+    <div id="wrap">
+        <div class="btn"><a href="https://xd.adobe.com/view/ea811030-691c-4cd7-bb35-2d0d192b7999-bfd2/?fullscreen&hints=off" class="view">View</a><a href="#top" class="gotop">↑</a></div>
+        <a href="https://xd.adobe.com/view/ea811030-691c-4cd7-bb35-2d0d192b7999-bfd2/?fullscreen&hints=off"><img src="../img/portfolio/pf_05.jpg" alt="다담 스타일가이드"></a>
+    </div>
+</body>
+</html>
